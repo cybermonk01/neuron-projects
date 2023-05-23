@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#blogList {
+  margin-bottom: 20px;
+}
+
+.blog {
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.blog h3 {
+  margin: 0;
+}
+
+.blog p {
+  margin: 10px 0;
+}
+
+#addBlogForm {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#addBlogForm input,
+#addBlogForm textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#addBlogForm button {
+  display: block;
+  margin: 10px auto;
+}
